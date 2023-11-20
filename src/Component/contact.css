@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contaner{
+    overflow: hidden;
+    width: 100%;
+}
+.row{
+    padding: 8px 2px;
+}
+.f-row{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 8px 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.details h2{
+    display: inline-flex;
+    color: rgb(0, 128, 202);
+    font-size: 15px;
+    font-weight: bolder;
+    /* padding: 8px 0; */
+}
+
+.img{
+    color: rgb(0, 128, 202);
+    padding-bottom: 3px;
+    padding-right: 6px;
+}
+i{
+    color: #0080ca;
+    padding-top: 5px;
+    padding-right: 6px;
+}
+label{
+    font-size: 14px;
+    padding: 8px 2px;
+    /* padding-bottom: 10px; */
+}
+.form-control{
+  width: 100%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+sup{
+    font-weight: bolder;
+    color: rgb(236, 68, 68);
+    padding: 4px;
+    
+}
+.form-select{
+   
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); 
+}
+p{
+    font-size: 1vmax;
+ 
+}
+@media (max-width:600px) {
+    
+    label{
+        font-size: 11px;
+    }
+    .form-select{
+        width: fit-content;
+    }
+  
+}
+@media (max-width:525px) {
+    label{
+        font-size: 9px;
+    }
+}
+
+@media (max-width:300px) {
+    .form-control{
+        width: fit-content;
+    }
+}
