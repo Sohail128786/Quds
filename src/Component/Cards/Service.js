@@ -3,9 +3,8 @@ import '../Cards/Cards.css'
 const Service = () => {
   return (
     <div className="contaner p-5">
-       <div><h1>CHECK OUR SERVICES</h1></div>
-       
-        <div className='card-group '>
+      
+          <div><h1>CHECK OUR SERVICES</h1></div>
            <div className='row '>
            {/* 1st Card */}
                <div className='col-lg-4 col-md-6 d-flex align-items-stretch aos-init aos-animate'>
@@ -64,15 +63,13 @@ const Service = () => {
                <div className='col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate'>
                   <div className="card text-center border-warning md-3">
                        <div className="card-body">
-                          <i className="bi bi-globe-americas"></i>
+                       <i className='bi bi glober-americes'></i>
                           <h5 className="card-title">Editorial Contact Support</h5>
                           <p className="card-text">We offer a collaborative process that includes support from editorial team for both and pre and post submission. Trust us to handle your manuscript submission and increase your acceptance odds by 30%.</p>
                        </div>
                    </div>
                </div>
-         
-               </div>   
-        </div>
+               </div>
     </div>
   )
 }
